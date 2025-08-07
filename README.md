@@ -2,9 +2,9 @@
   <img alt="Libft" width="20%" height="20%" src="https://github.com/joaolive/joaolive/blob/7dda8746c7a991e2f6b18aefda7ee0d779403791/libft.png" />
 </h1>
 
-> 42sp School cursus project
+> 42sp School project
 
-This repository contains all archives for the project __libft__ in the __42sp core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
+This repository contains all archives for the project __libft__ in the __42sp common core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
 
 <h2 align="center">
 	<a href="#about">About</a>
