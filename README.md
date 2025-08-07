@@ -4,7 +4,12 @@
 
 ##
 <p>
-This was the first and one of the most important projects at School 42. I built a C library with my own implementations of several libc functions, plus some extra ones that are really useful for everyday coding.
+  This was the first and one of the most important projects at School 42. I built a C library with my own implementations of several libc functions, plus some extra ones that are really useful for everyday coding.
 </p>
 
+##
+## Usage
+``make`` without bonus functions.
+
+``make bonus`` to compile with bonuses.
 
