@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Libft" width="20%" height="20%" src="https://github.com/joaolive/joaolive/blob/7dda8746c7a991e2f6b18aefda7ee0d779403791/libft.png" />
+  <img alt="Libft" width="20%" height="20%" src="https://github.com/joaolive/joaolive/blob/3ccf0ce9fdd2128ba8ef72276dde6506a5bb2ce3/badges/libft_b.png" />
 </h1>
 
 > 42sp School project
