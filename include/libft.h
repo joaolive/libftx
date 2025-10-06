@@ -6,7 +6,7 @@
 /*   By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 14:00:00 by joaolive          #+#    #+#             */
-/*   Updated: 2025/09/14 09:30:49 by joaolive         ###   ########.fr       */
+/*   Updated: 2025/10/06 13:58:21 by joaolive         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_is_numeric(char *str);
 size_t	ft_strlen(const char *s);
 void	*ft_memset(void *s, int c, size_t size);
 void	ft_bzero(void *s, size_t size);
