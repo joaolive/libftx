@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_numeric.c                                    :+:      :+:    :+:   */
+/*   ft_is_number.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/06 13:57:39 by joaolive          #+#    #+#             */
-/*   Updated: 2025/10/06 13:57:47 by joaolive         ###   ########.fr       */
+/*   Updated: 2025/10/07 11:41:01 by joaolive         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_is_numeric(char *str)
+int	ft_is_number(char *str)
 {
 	if (!str)
 		return (0);

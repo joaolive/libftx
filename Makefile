@@ -6,7 +6,7 @@
 #    By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/08/31 09:06:36 by joaolive          #+#    #+#              #
-#    Updated: 2025/10/06 13:58:41 by joaolive         ###   ########.fr        #
+#    Updated: 2025/10/07 11:47:38 by joaolive         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ CORE_NAMES = $(addsuffix .c, \
 			ft_isalnum \
 			ft_isascii \
 			ft_isprint \
-			ft_is_numeric \
+			ft_is_number \
 			ft_strlen \
 			ft_memset \
 			ft_bzero \
