@@ -6,7 +6,7 @@
 /*   By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 14:00:00 by joaolive          #+#    #+#             */
-/*   Updated: 2025/09/14 09:30:49 by joaolive         ###   ########.fr       */
+/*   Updated: 2025/10/21 08:52:38 by joaolive         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,6 +77,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len);
 int		ft_atoi(const char *nptr);
 long	ft_atol(const char *nptr);
 void	*ft_calloc(size_t count, size_t size);
+void	*ft_realloc(void **alloc, size_t cur_sz, size_t new_sz, size_t t_sz);
 char	*ft_strdup(const char *s);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
