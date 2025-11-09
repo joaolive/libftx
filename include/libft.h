@@ -6,7 +6,7 @@
 /*   By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 14:00:00 by joaolive          #+#    #+#             */
-/*   Updated: 2025/11/09 13:58:13 by joaolive         ###   ########.fr       */
+/*   Updated: 2025/11/09 14:22:42 by joaolive         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,6 +101,8 @@ void	ft_dlstclear(t_dlist *lst, void (*del)(void*));
 t_dlist	*ft_dlstconcat(t_dlist *lst1, t_dlist *lst2);
 void	ft_dlstdelone(t_dnode *node, void (*del)(void*));
 t_dnode	*ft_dlstfind(t_dlist *lst, void *ref, int (*cmp)(void *, void *));
+int		ft_dlstforeach_ctx(t_dlist *lst, int (*f)(void *, void *), void *context);
+int		ft_dlstforeach(t_dlist *lst, int (*f)(void *));
 t_dnode	*ft_dlstget_node_at(t_dlist *lst, size_t index);
 ssize_t	ft_dlstget_node_index(t_dlist *lst, t_dnode *node);
 t_dlist	*ft_dlstinit(void);

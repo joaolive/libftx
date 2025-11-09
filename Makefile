@@ -6,7 +6,7 @@
 #    By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/08/31 09:06:36 by joaolive          #+#    #+#              #
-#    Updated: 2025/10/22 09:37:43 by joaolive         ###   ########.fr        #
+#    Updated: 2025/11/09 14:23:31 by joaolive         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -93,6 +93,8 @@ DLST_NAMES = $(addsuffix .c, \
 			ft_dlstclear \
 			ft_dlstdelone \
 			ft_dlstfind \
+			ft_dlstforeach_ctx \
+			ft_dlstforeach \
 			ft_dlstget_node_at \
 			ft_dlstinit \
 			ft_dlstinsert_at \
