@@ -6,7 +6,7 @@
 #    By: joaolive <joaolive@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/08/31 09:06:36 by joaolive          #+#    #+#              #
-#    Updated: 2025/11/09 14:23:31 by joaolive         ###   ########.fr        #
+#    Updated: 2025/11/10 15:46:12 by joaolive         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -62,6 +62,7 @@ CORE_NAMES = $(addsuffix .c, \
 			ft_strdup \
 			ft_substr \
 			ft_strjoin \
+			ft_strjoinv \
 			ft_strtrim \
 			ft_split \
 			ft_itoa \
